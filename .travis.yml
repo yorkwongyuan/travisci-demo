@@ -12,8 +12,8 @@ deploy:
   skip_cleanup: true
   local_dir: dist/ # 编译包文件名
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: false # 每次提交都是新的
+  keep_history: true # 每次提交都是新的
   name: yorkwongyuan
   email: 631824375@qq.com
   on:
-    branch: main
+    branch: master
